@@ -86,6 +86,13 @@
             </list>
           </value>
         </entry>
+        <entry key="flame">
+          <value>
+            <list>
+              <option value="/opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/flame-1.6.0/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="flutter">
           <value>
             <list>
@@ -188,6 +195,13 @@
           <value>
             <list>
               <option value="/opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/node_preamble-2.0.1/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="ordered_set">
+          <value>
+            <list>
+              <option value="/opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/ordered_set-5.0.0/lib" />
             </list>
           </value>
         </entry>
@@ -388,6 +402,7 @@
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2/lib" />
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/css_colors-1.1.1/lib" />
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/file-6.1.4/lib" />
+      <root url="file:///opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/flame-1.6.0/lib" />
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/frontend_server_client-3.2.0/lib" />
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/glob-2.1.1/lib" />
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/http_multi_server-3.2.1/lib" />
@@ -402,6 +417,7 @@
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.8.0/lib" />
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/mime-1.0.4/lib" />
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/node_preamble-2.0.1/lib" />
+      <root url="file:///opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/ordered_set-5.0.0/lib" />
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/package_config-2.1.0/lib" />
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.3/lib" />
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/pool-1.5.1/lib" />
