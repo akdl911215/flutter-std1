@@ -307,6 +307,13 @@
             </list>
           </value>
         </entry>
+        <entry key="sliding_up_panel">
+          <value>
+            <list>
+              <option value="/opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/sliding_up_panel-2.0.0+1/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="source_map_stack_trace">
           <value>
             <list>
@@ -478,6 +485,7 @@
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/shelf_packages_handler-3.0.1/lib" />
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/shelf_static-1.1.1/lib" />
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/shelf_web_socket-1.0.3/lib" />
+      <root url="file:///opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/sliding_up_panel-2.0.0+1/lib" />
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/source_map_stack_trace-2.1.1/lib" />
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/source_maps-0.10.11/lib" />
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.10/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.9.0/lib" />

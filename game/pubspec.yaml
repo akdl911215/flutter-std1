@@ -18,6 +18,8 @@ dependencies:
   css_colors: ^1.1.1
   flame: ^1.6.0
   material: ^1.0.0+2
+  sliding_up_panel: ^2.0.0+1
+
 
 #flutter:
 #  generate: true
