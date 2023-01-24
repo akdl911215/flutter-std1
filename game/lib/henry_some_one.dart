@@ -1,11 +1,12 @@
+import 'dart:math';
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
 import 'package:game/animated_player.dart';
 import 'package:game/game_background.dart';
 import 'package:game/item.dart';
 import 'package:game/item_list_bottom_sheet.dart';
+import 'package:game/pet_component.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
-import 'index.dart';
 
 class HenrySomeOneGame extends StatefulWidget {
   const HenrySomeOneGame({Key? key}) : super(key: key);
@@ -56,15 +57,22 @@ class MyStaticGame extends FlameGame with HasCollisionDetection {
   Color backgroundColor() => const Color(0x00000000);
 
   final GameBackGround _backGround = GameBackGround();
+  final playerSize = Vector2(150, 100);
+  final playerPosition = Vector2(200, 400);
+  final petSize = Vector2(64,  64);
+  final petPosition = Vector2(200, 500);
 
   @override
   Future onLoad() async {
-    add(ScreenHitbox());
+    // add(ScreenHitbox());
     await add(_backGround);
 
-    final playerSize = Vector2(150, 100);
-    final playerPosition = Vector2(200, 600);
-    add(AnimatedPlayer(playerPosition, playerSize));
+    // final playerSize = Vector2(150, 100);
+    // final playerPosition = Vector2(200, 600);
+    await add(AnimatedPlayer(playerPosition, playerSize));
+    await add(
+      PetComponent(Vector2(-100, 0), petPosition, petSize, angle: pi),
+    );
   }
 
   @override
@@ -74,7 +82,5 @@ class MyStaticGame extends FlameGame with HasCollisionDetection {
     Vector2 position = Vector2(list.last * 50, 100);
     add(Item(position, index: list.last));
   }
-
-
 }
 
